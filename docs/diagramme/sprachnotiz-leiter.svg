@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="16 -4 808 720.75" width="808" height="720.75" font-family="ui-sans-serif, system-ui, sans-serif">
+<defs><marker id="spitze" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-end"><path d="M 0 0 L 10 5 L 0 10 z" fill="context-stroke"/></marker></defs>
+<rect x="16" y="-4" width="808" height="720.75" fill="#ffffff"/>
+<rect x="40" y="110" width="300" height="70" rx="8" fill="#d0ebff" stroke="#1971c2" stroke-width="2"/>
+<rect x="40" y="220" width="300" height="70" rx="8" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2"/>
+<line x1="190" y1="185" x2="190" y2="215" stroke="#1e1e1e" stroke-width="2" marker-end="url(#spitze)"/>
+<rect x="40" y="340" width="300" height="60" rx="8" fill="#f8f9fa" stroke="#1e1e1e" stroke-width="2"/>
+<rect x="40" y="420" width="300" height="60" rx="8" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2"/>
+<rect x="40" y="500" width="300" height="60" rx="8" fill="#ffe3e3" stroke="#e03131" stroke-width="2"/>
+<line x1="190" y1="295" x2="130" y2="335" stroke="#1e1e1e" stroke-width="2" marker-end="url(#spitze)"/>
+<line x1="190" y1="295" x2="190" y2="415" stroke="#1e1e1e" stroke-width="2" marker-end="url(#spitze)"/>
+<line x1="190" y1="295" x2="250" y2="495" stroke="#1e1e1e" stroke-width="2" marker-end="url(#spitze)"/>
+<rect x="420" y="140" width="380" height="46" rx="8" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2"/>
+<rect x="420" y="290" width="380" height="46" rx="8" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2"/>
+<rect x="420" y="440" width="380" height="46" rx="8" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2"/>
+<rect x="420" y="590" width="380" height="46" rx="8" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2"/>
+<text x="40" y="41" fill="#1e1e1e" font-size="22" text-anchor="start" >Die Leiter: wann überhaupt ein Modell?</text>
+<text x="40" y="62" fill="#1e1e1e" font-size="13" text-anchor="start" >Die einzige Stelle der Strecke mit Sprachmodell — und auch dort erst ab zwei Kandidaten.  (E-07)</text>
+<text x="190" y="140" fill="#1971c2" font-size="16" text-anchor="middle" font-weight="600">Sprachnotiz</text>
+<text x="190" y="160" fill="#1971c2" font-size="16" text-anchor="middle" font-weight="600">[ACME] NOTIZ Thema</text>
+<text x="190" y="250" fill="#2f9e44" font-size="16" text-anchor="middle" font-weight="600">Zeichnungen im selben</text>
+<text x="190" y="270" fill="#2f9e44" font-size="16" text-anchor="middle" font-weight="600">Notizen/-Ordner zählen</text>
+<text x="190" y="375" fill="#1e1e1e" font-size="16" text-anchor="middle" font-weight="600">0 Kandidaten → nichts</text>
+<text x="190" y="455" fill="#2f9e44" font-size="16" text-anchor="middle" font-weight="600">1 Kandidat → verknüpfen</text>
+<text x="190" y="535" fill="#e03131" font-size="16" text-anchor="middle" font-weight="600">2+ → Modell fragen</text>
+<text x="420" y="117" fill="#1e1e1e" font-size="18" text-anchor="start" >Die vier Verteidigungen</text>
+<text x="610" y="168" fill="#2f9e44" font-size="16" text-anchor="middle" font-weight="600">1  Index statt Pfad</text>
+<text x="430" y="206" fill="#1e1e1e" font-size="13" text-anchor="start" >Das Modell gibt eine ZAHL in eine</text>
+<text x="430" y="223" fill="#1e1e1e" font-size="13" text-anchor="start" >maschinell gebaute Liste zurück.</text>
+<text x="430" y="239" fill="#1e1e1e" font-size="13" text-anchor="start" >Kein Pfad. Ein Satz im Transkript</text>
+<text x="430" y="255" fill="#1e1e1e" font-size="13" text-anchor="start" >kann keinen Schreibort wählen.</text>
+<text x="610" y="318" fill="#2f9e44" font-size="16" text-anchor="middle" font-weight="600">2  Belegpflicht</text>
+<text x="430" y="356" fill="#1e1e1e" font-size="13" text-anchor="start" >Es nennt den Satz wörtlich, der zur</text>
+<text x="430" y="373" fill="#1e1e1e" font-size="13" text-anchor="start" >Wahl führte. Das Programm prüft, ob</text>
+<text x="430" y="389" fill="#1e1e1e" font-size="13" text-anchor="start" >er dort steht. Kein Beleg, keine</text>
+<text x="430" y="405" fill="#1e1e1e" font-size="13" text-anchor="start" >Verknüpfung — zeigen statt assoziieren.</text>
+<text x="610" y="468" fill="#2f9e44" font-size="16" text-anchor="middle" font-weight="600">3  Fremdtext im Zaun</text>
+<text x="430" y="506" fill="#1e1e1e" font-size="13" text-anchor="start" >Transkript zwischen Marken, mit dem</text>
+<text x="430" y="523" fill="#1e1e1e" font-size="13" text-anchor="start" >Satz: alles darin ist Material,</text>
+<text x="430" y="539" fill="#1e1e1e" font-size="13" text-anchor="start" >nie Auftrag. Senkt die Rate,</text>
+<text x="430" y="555" fill="#1e1e1e" font-size="13" text-anchor="start" >garantiert nichts — deshalb 1.</text>
+<text x="610" y="618" fill="#2f9e44" font-size="16" text-anchor="middle" font-weight="600">4  Schreiben eng</text>
+<text x="430" y="656" fill="#1e1e1e" font-size="13" text-anchor="start" >Nur EINE Wikilink-Zeile an zwei</text>
+<text x="430" y="673" fill="#1e1e1e" font-size="13" text-anchor="start" >benannte Dateien, idempotent.</text>
+<text x="430" y="689" fill="#1e1e1e" font-size="13" text-anchor="start" >Kein Anlegen, Verschieben, Löschen.</text>
+</svg>

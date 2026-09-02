@@ -1,0 +1,9 @@
+Markerdatei der Vault-Wurzel.
+
+Die Programme erkennen eine Vault-Wurzel an dieser Datei UND an einem erwarteten
+Ordner. Beide Namen sind einstellbar:
+
+    VAULT_MARKER=.vault  VAULT_BAUM="02 Projekte"  python3 src/kuerzel_register.py --register
+
+Zwei Merkmale statt eines, damit ein leerer oder falscher Pfad nicht als gueltige
+Wurzel durchgeht — sonst schrieben die Programme ihre Notizen ins Nichts.

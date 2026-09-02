@@ -1,0 +1,47 @@
+# Zeitplan der Strecke. Vorlage — Pfade und Konten anpassen.
+#
+# Zwei Konten:
+#   jobs    alles, was nur Netz und Vault braucht
+#   eigner  nur der Sprachnotiz-Zweig (die Modell-CLI haengt an einem Profil)
+#
+# Jeder Eintrag laeuft ueber heartbeat.sh: der schreibt das Lebenszeichen und
+# ordnet den Rueckgabewert ein (69 = wiederholbar, 77 = melden).
+# Wer ins Vault schreibt, laeuft zusaetzlich ueber mit-sperre.sh.
+
+SHELL=/bin/bash
+VAULT_DIR=/opt/vault
+SECRETS_DIR=/etc/notizen-strecke
+
+# --- Konto jobs -------------------------------------------------------------
+
+# Abholer: Postfach -> Bibliothek. Ohne Sperre, schreibt nicht ins Vault.
+*/15 * * * *  /opt/notizen-strecke/heartbeat.sh remarkable -- \
+              /opt/notizen-strecke/run-remarkable.sh >> /var/log/notizen-strecke/remarkable.log 2>&1
+
+# Zuordner: Bibliothek -> Vault. MIT Sperre, committet.
+7-59/15 * * * *  /opt/notizen-strecke/heartbeat.sh remarkable-zuordner -- \
+              /opt/notizen-strecke/mit-sperre.sh -- \
+              /opt/notizen-strecke/run-remarkable-zuordner.sh >> /var/log/notizen-strecke/remarkable-zuordner.log 2>&1
+
+# Waechter: naechtlich, liest nur, meldet nur bei Befund.
+35 2 * * *    /opt/notizen-strecke/heartbeat.sh remarkable-wachhund -- \
+              /opt/notizen-strecke/run-remarkable-wachhund.sh >> /var/log/notizen-strecke/remarkable-wachhund.log 2>&1
+
+# Rueckweg: Kuerzel-Index aufs Geraet.
+35 3 * * *    /opt/notizen-strecke/heartbeat.sh remarkable-index -- \
+              /opt/notizen-strecke/run-remarkable-index.sh >> /var/log/notizen-strecke/remarkable-index.log 2>&1
+
+# Mail-Eingang (optional, Schwesterstrecke).
+*/15 * * * *  /opt/notizen-strecke/heartbeat.sh notiz-eingang -- \
+              /opt/notizen-strecke/mit-sperre.sh -- \
+              /opt/notizen-strecke/run-notiz-eingang.sh >> /var/log/notizen-strecke/notiz-eingang.log 2>&1
+
+# OCR-Nachlauf (optional): zwei Stunden Budget, macht am Folgetag weiter.
+0 1 * * *     /opt/notizen-strecke/heartbeat.sh ocr -- \
+              /opt/notizen-strecke/run-ocr.sh --budget 7200 >> /var/log/notizen-strecke/ocr.log 2>&1
+
+# --- Konto eigner -----------------------------------------------------------
+# Sprachnotiz-Zweig: der einzige Modellaufruf. MODELL_NAME ist PFLICHT (E-12).
+30 */4 * * *  MODELL_NAME=<modell> /opt/notizen-strecke/heartbeat.sh remarkable-sprachnotiz -- \
+              /opt/notizen-strecke/mit-sperre.sh -- \
+              /opt/notizen-strecke/run-remarkable-sprachnotiz.sh >> /var/log/notizen-strecke/remarkable-sprachnotiz.log 2>&1

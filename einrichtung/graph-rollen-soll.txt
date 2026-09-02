@@ -1,0 +1,40 @@
+# SOLL-Liste der Graph-Anwendungsberechtigungen. Vorlage.
+#
+# Wofuer diese Datei da ist
+# -------------------------
+# Sie ist die maschinelle Wahrheit darueber, welche Rollen eine App-Registrierung
+# tragen SOLL. Ein Pruefjob vergleicht sie mit dem `roles`-Anspruch eines FRISCH
+# geholten Tokens und meldet jede Abweichung — in BEIDEN Richtungen.
+#
+# Warum es sie ueberhaupt braucht
+# -------------------------------
+# Gemessen: Zwei Rollen wurden im Portal entzogen. Acht Tage spaeter standen beide
+# weiterhin im Token — der Entzug hatte nicht gegriffen, und niemand hatte es
+# bemerkt. Dazu trug das Token eine dritte Rolle, die in keiner Liste stand.
+#
+# Ein Entzug ohne Nachmessung ist eine Absicht, keine Aenderung.
+# Das Portal ist nicht das Token.
+#
+# Warum beide Richtungen zaehlen
+# ------------------------------
+# Zu wenig  -> etwas ist kaputt, das merkt man schnell.
+# Zu viel   -> nichts ist kaputt, und das merkt man nie. Der gefaehrlichere Fall.
+
+# --- App 1: Bibliothek ------------------------------------------------------
+# Braucht genau eine Rolle. Und die gewaehrt fuer sich allein NICHTS — ohne
+# `POST /sites/{id}/permissions` je Site antwortet jeder Zugriff mit 403.
+Sites.Selected
+
+# --- App 2: Dienstpostfach --------------------------------------------------
+# Postfach lesen, Mails zwischen Ordnern verschieben.
+Mail.ReadWrite
+
+# Sammelmeldung aus dem Dienstpostfach.
+#
+# Diese Rolle ist der Grund fuer die zweite App-Registrierung. Sie ist
+# tenant-weit gueltig und wird ausschliesslich durch die Application Access
+# Policy auf ein Postfach eingegrenzt — eine physische Grenze, keine Regel.
+#
+# Wer hier eine Rolle eintraegt, die ueber das Dienstpostfach hinausreicht,
+# hebelt die Trennung aus. Im Zweifel: nicht eintragen, sondern fragen.
+Mail.Send
