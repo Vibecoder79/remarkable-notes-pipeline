@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="16 -4 898 763.0" width="898" height="763.0" font-family="ui-sans-serif, system-ui, sans-serif">
+<defs><marker id="spitze" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-end"><path d="M 0 0 L 10 5 L 0 10 z" fill="context-stroke"/></marker></defs>
+<rect x="16" y="-4" width="898" height="763.0" fill="#ffffff"/>
+<rect x="40" y="100" width="340" height="70" rx="8" fill="#d0ebff" stroke="#1971c2" stroke-width="2"/>
+<rect x="40" y="230" width="340" height="60" rx="8" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2"/>
+<line x1="210" y1="175" x2="210" y2="225" stroke="#1e1e1e" stroke-width="2" marker-end="url(#spitze)"/>
+<rect x="40" y="350" width="340" height="80" rx="8" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2"/>
+<line x1="210" y1="295" x2="210" y2="345" stroke="#1e1e1e" stroke-width="2" marker-end="url(#spitze)"/>
+<rect x="470" y="375" width="420" height="46" rx="8" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+<rect x="470" y="431" width="420" height="46" rx="8" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+<rect x="470" y="487" width="420" height="46" rx="8" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+<rect x="470" y="543" width="420" height="46" rx="8" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+<rect x="470" y="599" width="420" height="46" rx="8" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+<line x1="385" y1="390" x2="465" y2="400" stroke="#1e1e1e" stroke-width="2" marker-end="url(#spitze)"/>
+<rect x="40" y="500" width="340" height="90" rx="8" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+<line x1="210" y1="435" x2="210" y2="495" stroke="#1e1e1e" stroke-width="2" marker-end="url(#spitze)"/>
+<text x="40" y="41" fill="#1e1e1e" font-size="22" text-anchor="start" >Wie ein Kürzel zum Ordner wird</text>
+<text x="40" y="62" fill="#1e1e1e" font-size="13" text-anchor="start" >Zeichenvergleich, kein Verstehen. Es wird nie geraten.  (E-08)</text>
+<text x="210" y="140" fill="#1971c2" font-size="16" text-anchor="middle" font-weight="600">2026-08-15 [ACME] Zonenskizze.pdf</text>
+<text x="40" y="197" fill="#1e1e1e" font-size="13" text-anchor="start" >Datum weg, Endung weg  →  «[ACME] Zonenskizze»</text>
+<text x="210" y="265" fill="#2f9e44" font-size="16" text-anchor="middle" font-weight="600">Kürzel = ACME</text>
+<text x="210" y="385" fill="#2f9e44" font-size="16" text-anchor="middle" font-weight="600">Register</text>
+<text x="210" y="405" fill="#2f9e44" font-size="16" text-anchor="middle" font-weight="600">bei jedem Lauf aus dem Vault gebaut</text>
+<text x="470" y="353" fill="#1e1e1e" font-size="14" text-anchor="start" >gelesen aus fünf Bäumen:</text>
+<text x="680" y="403" fill="#f08c00" font-size="16" text-anchor="middle" font-weight="600">02 Projekte   ·   kein Präfix   ·   z.B. ACME</text>
+<text x="680" y="459" fill="#f08c00" font-size="16" text-anchor="middle" font-weight="600">09 Vertrieb   ·   VTR-   ·   z.B. VTR-ACME</text>
+<text x="680" y="515" fill="#f08c00" font-size="16" text-anchor="middle" font-weight="600">10 Personen   ·   P-   ·   z.B. P-MUSTER-M</text>
+<text x="680" y="571" fill="#f08c00" font-size="16" text-anchor="middle" font-weight="600">04 Ressourcen/Persönliche Notizen   ·   PN-   ·   z.B. PN-LERNEN</text>
+<text x="680" y="627" fill="#f08c00" font-size="16" text-anchor="middle" font-weight="600">03 Bereiche   ·   kein Präfix   ·   z.B. BEREICH-A</text>
+<text x="210" y="540" fill="#f08c00" font-size="16" text-anchor="middle" font-weight="600">Ziel: 02 Projekte/Acme/</text>
+<text x="210" y="560" fill="#f08c00" font-size="16" text-anchor="middle" font-weight="600">Notizen/</text>
+<text x="40" y="713" fill="#e03131" font-size="14" text-anchor="start" >Kein Kürzel · unbekannt · mehrdeutig · klein geschrieben · nicht am Anfang</text>
+<text x="40" y="731" fill="#e03131" font-size="14" text-anchor="start" >→  keine Zuordnung. Das Dokument wartet sichtbar, statt falsch zu landen.</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="16 -4 1166.0 608" width="1166.0" height="608" font-family="ui-sans-serif, system-ui, sans-serif">
+<defs><marker id="spitze" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-end"><path d="M 0 0 L 10 5 L 0 10 z" fill="context-stroke"/></marker></defs>
+<rect x="16" y="-4" width="1166.0" height="608" fill="#ffffff"/>
+<rect x="40" y="110" width="300" height="100" rx="8" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2"/>
+<rect x="40" y="250" width="300" height="90" rx="8" fill="#ffe3e3" stroke="#e03131" stroke-width="2"/>
+<line x1="190" y1="215" x2="190" y2="245" stroke="#1e1e1e" stroke-width="2" marker-end="url(#spitze)"/>
+<rect x="40" y="380" width="300" height="80" rx="8" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+<line x1="190" y1="345" x2="190" y2="375" stroke="#1e1e1e" stroke-width="2" marker-end="url(#spitze)"/>
+<rect x="40" y="500" width="300" height="80" rx="8" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+<line x1="190" y1="465" x2="190" y2="495" stroke="#1e1e1e" stroke-width="2" marker-end="url(#spitze)"/>
+<rect x="480" y="110" width="300" height="100" rx="8" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2"/>
+<rect x="480" y="250" width="300" height="90" rx="8" fill="#ffe3e3" stroke="#e03131" stroke-width="2"/>
+<line x1="630" y1="215" x2="630" y2="245" stroke="#1e1e1e" stroke-width="2" marker-end="url(#spitze)"/>
+<rect x="480" y="380" width="300" height="80" rx="8" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+<line x1="630" y1="345" x2="630" y2="375" stroke="#1e1e1e" stroke-width="2" marker-end="url(#spitze)"/>
+<rect x="480" y="500" width="145" height="80" rx="8" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+<rect x="635" y="500" width="145" height="80" rx="8" fill="#ffec99" stroke="#f08c00" stroke-width="2"/>
+<line x1="600" y1="465" x2="550" y2="495" stroke="#1e1e1e" stroke-width="2" marker-end="url(#spitze)"/>
+<line x1="660" y1="465" x2="700" y2="495" stroke="#1e1e1e" stroke-width="2" marker-end="url(#spitze)"/>
+<text x="40" y="41" fill="#1e1e1e" font-size="22" text-anchor="start" >Zwei App-Registrierungen, zwei Grenzen</text>
+<text x="40" y="62" fill="#1e1e1e" font-size="13" text-anchor="start" >Ein Schlüssel für alles wäre einfacher — und gäbe dem Abholer Senderecht auf jedes Postfach.  (E-09)</text>
+<text x="190" y="155" fill="#2f9e44" font-size="16" text-anchor="middle" font-weight="600">App «tablet-abholer»</text>
+<text x="190" y="175" fill="#2f9e44" font-size="16" text-anchor="middle" font-weight="600">Mail.ReadWrite + Mail.Send</text>
+<text x="190" y="290" fill="#e03131" font-size="16" text-anchor="middle" font-weight="600">Application Access Policy</text>
+<text x="190" y="310" fill="#e03131" font-size="16" text-anchor="middle" font-weight="600">RestrictAccess</text>
+<text x="190" y="415" fill="#f08c00" font-size="16" text-anchor="middle" font-weight="600">Sicherheitsgruppe</text>
+<text x="190" y="435" fill="#f08c00" font-size="16" text-anchor="middle" font-weight="600">ein Mitglied</text>
+<text x="190" y="535" fill="#f08c00" font-size="16" text-anchor="middle" font-weight="600">Dienstpostfach</text>
+<text x="190" y="555" fill="#f08c00" font-size="16" text-anchor="middle" font-weight="600">tablet@example.com</text>
+<text x="630" y="155" fill="#2f9e44" font-size="16" text-anchor="middle" font-weight="600">App «notizen-plattform»</text>
+<text x="630" y="175" fill="#2f9e44" font-size="16" text-anchor="middle" font-weight="600">Sites.Selected</text>
+<text x="630" y="290" fill="#e03131" font-size="16" text-anchor="middle" font-weight="600">Grant je Site</text>
+<text x="630" y="310" fill="#e03131" font-size="16" text-anchor="middle" font-weight="600">POST /sites/{id}/permissions</text>
+<text x="630" y="425" fill="#f08c00" font-size="16" text-anchor="middle" font-weight="600">SharePoint-Site</text>
+<text x="552" y="535" fill="#f08c00" font-size="16" text-anchor="middle" font-weight="600">remarkable</text>
+<text x="552" y="555" fill="#f08c00" font-size="16" text-anchor="middle" font-weight="600">(Hinweg)</text>
+<text x="708" y="535" fill="#f08c00" font-size="16" text-anchor="middle" font-weight="600">an-remarkable</text>
+<text x="708" y="555" fill="#f08c00" font-size="16" text-anchor="middle" font-weight="600">(Rückweg)</text>
+<text x="850" y="133" fill="#1e1e1e" font-size="14" text-anchor="start" >Gemessen, in beide Richtungen:</text>
+<text x="850" y="151" fill="#1e1e1e" font-size="14" text-anchor="start" ></text>
+<text x="850" y="168" fill="#1e1e1e" font-size="14" text-anchor="start" >Postfach-App  →  Dienstpostfach      200</text>
+<text x="850" y="186" fill="#1e1e1e" font-size="14" text-anchor="start" >Postfach-App  →  anderes Postfach    403</text>
+<text x="850" y="203" fill="#1e1e1e" font-size="14" text-anchor="start" >Bibliotheks-App → Dienstpostfach     403</text>
+<text x="850" y="221" fill="#1e1e1e" font-size="14" text-anchor="start" ></text>
+<text x="850" y="238" fill="#1e1e1e" font-size="14" text-anchor="start" >Die Eingrenzung ist gemessen,</text>
+<text x="850" y="256" fill="#1e1e1e" font-size="14" text-anchor="start" >nicht geglaubt.</text>
+<text x="850" y="313" fill="#e03131" font-size="14" text-anchor="start" >Sites.Selected allein</text>
+<text x="850" y="331" fill="#e03131" font-size="14" text-anchor="start" >gewährt NICHTS.</text>
+<text x="850" y="348" fill="#e03131" font-size="14" text-anchor="start" >Ohne den Grant je Site</text>
+<text x="850" y="366" fill="#e03131" font-size="14" text-anchor="start" >antwortet alles mit 403 —</text>
+<text x="850" y="383" fill="#e03131" font-size="14" text-anchor="start" >und es gibt keine</text>
+<text x="850" y="401" fill="#e03131" font-size="14" text-anchor="start" >Oberfläche dafür.</text>
+<text x="850" y="463" fill="#e03131" font-size="14" text-anchor="start" >Die Policy greift in</text>
+<text x="850" y="481" fill="#e03131" font-size="14" text-anchor="start" >Stunden, nicht Minuten.</text>
+<text x="850" y="498" fill="#e03131" font-size="14" text-anchor="start" >Gemessen: rund fünf.</text>
+<text x="850" y="516" fill="#e03131" font-size="14" text-anchor="start" >Solange blockt sie auch</text>
+<text x="850" y="533" fill="#e03131" font-size="14" text-anchor="start" >das erlaubte Postfach.</text>
+<text x="850" y="551" fill="#e03131" font-size="14" text-anchor="start" >Nicht schrauben — warten.</text>
+</svg>
